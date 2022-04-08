@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47BBB0BF280033DB00AD50E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB0BE280033DB00AD50E6 /* AppDelegate.swift */; };
+		47BBB0C1280033DB00AD50E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB0C0280033DB00AD50E6 /* SceneDelegate.swift */; };
+		47BBB0C3280033DB00AD50E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB0C2280033DB00AD50E6 /* ViewController.swift */; };
+		47BBB0C6280033DB00AD50E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BBB0C4280033DB00AD50E6 /* Main.storyboard */; };
+		47BBB0C8280033DF00AD50E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47BBB0C7280033DF00AD50E6 /* Assets.xcassets */; };
+		47BBB0CB280033DF00AD50E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BBB0C9280033DF00AD50E6 /* LaunchScreen.storyboard */; };
+		47BBB0D6280033E000AD50E6 /* SimpleTodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB0D5280033E000AD50E6 /* SimpleTodoTests.swift */; };
+		47BBB0E0280033E000AD50E6 /* SimpleTodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB0DF280033E000AD50E6 /* SimpleTodoUITests.swift */; };
+		47BBB0E2280033E000AD50E6 /* SimpleTodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB0E1280033E000AD50E6 /* SimpleTodoUITestsLaunchTests.swift */; };
+		47BBB0F52800348A00AD50E6 /* GTListRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB0EF2800348A00AD50E6 /* GTListRouterMock.swift */; };
+		47BBB0F62800348A00AD50E6 /* GTListPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB0F02800348A00AD50E6 /* GTListPresenterMock.swift */; };
+		47BBB0F72800348A00AD50E6 /* GTListWorkerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB0F12800348A00AD50E6 /* GTListWorkerMock.swift */; };
+		47BBB0F82800348A00AD50E6 /* GTListSceneTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB0F22800348A00AD50E6 /* GTListSceneTest.swift */; };
+		47BBB0F92800348A00AD50E6 /* GTListViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB0F32800348A00AD50E6 /* GTListViewMock.swift */; };
+		47BBB0FA2800348A00AD50E6 /* GTListInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB0F42800348A00AD50E6 /* GTListInteractorMock.swift */; };
+		47BBB118280034A000AD50E6 /* GTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB0FC280034A000AD50E6 /* GTError.swift */; };
+		47BBB119280034A000AD50E6 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB0FE280034A000AD50E6 /* CoreDataHelper.swift */; };
+		47BBB11A280034A000AD50E6 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB0FF280034A000AD50E6 /* DBHelper.swift */; };
+		47BBB11B280034A000AD50E6 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB101280034A000AD50E6 /* DIContainer.swift */; };
+		47BBB11C280034A000AD50E6 /* GTConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB103280034A000AD50E6 /* GTConstants.swift */; };
+		47BBB11D280034A000AD50E6 /* GTListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB107280034A000AD50E6 /* GTListRouter.swift */; };
+		47BBB11E280034A000AD50E6 /* GTListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB109280034A000AD50E6 /* GTListView.swift */; };
+		47BBB11F280034A000AD50E6 /* GTListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB10B280034A000AD50E6 /* GTListCell.swift */; };
+		47BBB120280034A000AD50E6 /* GTInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB10D280034A000AD50E6 /* GTInteractor.swift */; };
+		47BBB121280034A000AD50E6 /* GTWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB10F280034A000AD50E6 /* GTWorker.swift */; };
+		47BBB122280034A000AD50E6 /* GTDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB111280034A000AD50E6 /* GTDataModel.swift */; };
+		47BBB123280034A000AD50E6 /* GTPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB113280034A000AD50E6 /* GTPresenter.swift */; };
+		47BBB124280034A000AD50E6 /* GTAlertControllerWithTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB115280034A000AD50E6 /* GTAlertControllerWithTextField.swift */; };
+		47BBB125280034A000AD50E6 /* GTCommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB116280034A000AD50E6 /* GTCommonExtensions.swift */; };
+		47BBB126280034A000AD50E6 /* GTUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB117280034A000AD50E6 /* GTUtilities.swift */; };
+		47BBB1292800354600AD50E6 /* ToDoDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47BBB1272800354600AD50E6 /* ToDoDB.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47BBB0D2280033E000AD50E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47BBB0B3280033DB00AD50E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47BBB0BA280033DB00AD50E6;
+			remoteInfo = SimpleTodo;
+		};
+		47BBB0DC280033E000AD50E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47BBB0B3280033DB00AD50E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47BBB0BA280033DB00AD50E6;
+			remoteInfo = SimpleTodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47BBB0BB280033DB00AD50E6 /* SimpleTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47BBB0BE280033DB00AD50E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47BBB0C0280033DB00AD50E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47BBB0C2280033DB00AD50E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47BBB0C5280033DB00AD50E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47BBB0C7280033DF00AD50E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47BBB0CA280033DF00AD50E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47BBB0CC280033DF00AD50E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47BBB0D1280033E000AD50E6 /* SimpleTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47BBB0D5280033E000AD50E6 /* SimpleTodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTodoTests.swift; sourceTree = "<group>"; };
+		47BBB0DB280033E000AD50E6 /* SimpleTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47BBB0DF280033E000AD50E6 /* SimpleTodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTodoUITests.swift; sourceTree = "<group>"; };
+		47BBB0E1280033E000AD50E6 /* SimpleTodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		47BBB0EF2800348A00AD50E6 /* GTListRouterMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTListRouterMock.swift; sourceTree = "<group>"; };
+		47BBB0F02800348A00AD50E6 /* GTListPresenterMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTListPresenterMock.swift; sourceTree = "<group>"; };
+		47BBB0F12800348A00AD50E6 /* GTListWorkerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTListWorkerMock.swift; sourceTree = "<group>"; };
+		47BBB0F22800348A00AD50E6 /* GTListSceneTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTListSceneTest.swift; sourceTree = "<group>"; };
+		47BBB0F32800348A00AD50E6 /* GTListViewMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTListViewMock.swift; sourceTree = "<group>"; };
+		47BBB0F42800348A00AD50E6 /* GTListInteractorMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTListInteractorMock.swift; sourceTree = "<group>"; };
+		47BBB0FC280034A000AD50E6 /* GTError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTError.swift; sourceTree = "<group>"; };
+		47BBB0FE280034A000AD50E6 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		47BBB0FF280034A000AD50E6 /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		47BBB101280034A000AD50E6 /* DIContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		47BBB103280034A000AD50E6 /* GTConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTConstants.swift; sourceTree = "<group>"; };
+		47BBB107280034A000AD50E6 /* GTListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTListRouter.swift; sourceTree = "<group>"; };
+		47BBB109280034A000AD50E6 /* GTListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTListView.swift; sourceTree = "<group>"; };
+		47BBB10B280034A000AD50E6 /* GTListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTListCell.swift; sourceTree = "<group>"; };
+		47BBB10D280034A000AD50E6 /* GTInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTInteractor.swift; sourceTree = "<group>"; };
+		47BBB10F280034A000AD50E6 /* GTWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTWorker.swift; sourceTree = "<group>"; };
+		47BBB111280034A000AD50E6 /* GTDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTDataModel.swift; sourceTree = "<group>"; };
+		47BBB113280034A000AD50E6 /* GTPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTPresenter.swift; sourceTree = "<group>"; };
+		47BBB115280034A000AD50E6 /* GTAlertControllerWithTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTAlertControllerWithTextField.swift; sourceTree = "<group>"; };
+		47BBB116280034A000AD50E6 /* GTCommonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTCommonExtensions.swift; sourceTree = "<group>"; };
+		47BBB117280034A000AD50E6 /* GTUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTUtilities.swift; sourceTree = "<group>"; };
+		47BBB1282800354600AD50E6 /* ToDoDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoDB.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47BBB0B8280033DB00AD50E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BBB0CE280033E000AD50E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BBB0D8280033E000AD50E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47BBB0B2280033DB00AD50E6 = {
+			isa = PBXGroup;
+			children = (
+				47BBB0BD280033DB00AD50E6 /* SimpleTodo */,
+				47BBB0D4280033E000AD50E6 /* SimpleTodoTests */,
+				47BBB0DE280033E000AD50E6 /* SimpleTodoUITests */,
+				47BBB0BC280033DB00AD50E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47BBB0BC280033DB00AD50E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB0BB280033DB00AD50E6 /* SimpleTodo.app */,
+				47BBB0D1280033E000AD50E6 /* SimpleTodoTests.xctest */,
+				47BBB0DB280033E000AD50E6 /* SimpleTodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47BBB0BD280033DB00AD50E6 /* SimpleTodo */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB0BE280033DB00AD50E6 /* AppDelegate.swift */,
+				47BBB0C0280033DB00AD50E6 /* SceneDelegate.swift */,
+				47BBB0C2280033DB00AD50E6 /* ViewController.swift */,
+				47BBB0C4280033DB00AD50E6 /* Main.storyboard */,
+				47BBB0C7280033DF00AD50E6 /* Assets.xcassets */,
+				47BBB0C9280033DF00AD50E6 /* LaunchScreen.storyboard */,
+				47BBB0CC280033DF00AD50E6 /* Info.plist */,
+				47BBB1272800354600AD50E6 /* ToDoDB.xcdatamodeld */,
+				47BBB0FD280034A000AD50E6 /* DBHandler */,
+				47BBB100280034A000AD50E6 /* DIContainer */,
+				47BBB0FB280034A000AD50E6 /* Error */,
+				47BBB102280034A000AD50E6 /* Macros */,
+				47BBB104280034A000AD50E6 /* Scenes */,
+				47BBB114280034A000AD50E6 /* Utilities */,
+			);
+			path = SimpleTodo;
+			sourceTree = "<group>";
+		};
+		47BBB0D4280033E000AD50E6 /* SimpleTodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB0EE2800348A00AD50E6 /* ListSceneTests */,
+				47BBB0D5280033E000AD50E6 /* SimpleTodoTests.swift */,
+			);
+			path = SimpleTodoTests;
+			sourceTree = "<group>";
+		};
+		47BBB0DE280033E000AD50E6 /* SimpleTodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB0DF280033E000AD50E6 /* SimpleTodoUITests.swift */,
+				47BBB0E1280033E000AD50E6 /* SimpleTodoUITestsLaunchTests.swift */,
+			);
+			path = SimpleTodoUITests;
+			sourceTree = "<group>";
+		};
+		47BBB0EE2800348A00AD50E6 /* ListSceneTests */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB0EF2800348A00AD50E6 /* GTListRouterMock.swift */,
+				47BBB0F02800348A00AD50E6 /* GTListPresenterMock.swift */,
+				47BBB0F12800348A00AD50E6 /* GTListWorkerMock.swift */,
+				47BBB0F22800348A00AD50E6 /* GTListSceneTest.swift */,
+				47BBB0F32800348A00AD50E6 /* GTListViewMock.swift */,
+				47BBB0F42800348A00AD50E6 /* GTListInteractorMock.swift */,
+			);
+			path = ListSceneTests;
+			sourceTree = "<group>";
+		};
+		47BBB0FB280034A000AD50E6 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB0FC280034A000AD50E6 /* GTError.swift */,
+			);
+			path = Error;
+			sourceTree = SOURCE_ROOT;
+		};
+		47BBB0FD280034A000AD50E6 /* DBHandler */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB0FE280034A000AD50E6 /* CoreDataHelper.swift */,
+				47BBB0FF280034A000AD50E6 /* DBHelper.swift */,
+			);
+			path = DBHandler;
+			sourceTree = SOURCE_ROOT;
+		};
+		47BBB100280034A000AD50E6 /* DIContainer */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB101280034A000AD50E6 /* DIContainer.swift */,
+			);
+			path = DIContainer;
+			sourceTree = SOURCE_ROOT;
+		};
+		47BBB102280034A000AD50E6 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB103280034A000AD50E6 /* GTConstants.swift */,
+			);
+			path = Macros;
+			sourceTree = SOURCE_ROOT;
+		};
+		47BBB104280034A000AD50E6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB105280034A000AD50E6 /* ListScene */,
+			);
+			path = Scenes;
+			sourceTree = SOURCE_ROOT;
+		};
+		47BBB105280034A000AD50E6 /* ListScene */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB106280034A000AD50E6 /* ListRouter */,
+				47BBB108280034A000AD50E6 /* ListView */,
+				47BBB10C280034A000AD50E6 /* ListInteractor */,
+				47BBB110280034A000AD50E6 /* ListEntity */,
+				47BBB112280034A000AD50E6 /* ListPresenter */,
+			);
+			path = ListScene;
+			sourceTree = "<group>";
+		};
+		47BBB106280034A000AD50E6 /* ListRouter */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB107280034A000AD50E6 /* GTListRouter.swift */,
+			);
+			path = ListRouter;
+			sourceTree = "<group>";
+		};
+		47BBB108280034A000AD50E6 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB109280034A000AD50E6 /* GTListView.swift */,
+				47BBB10A280034A000AD50E6 /* HelperViews */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		47BBB10A280034A000AD50E6 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB10B280034A000AD50E6 /* GTListCell.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		47BBB10C280034A000AD50E6 /* ListInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB10D280034A000AD50E6 /* GTInteractor.swift */,
+				47BBB10E280034A000AD50E6 /* RecipeWorker */,
+			);
+			path = ListInteractor;
+			sourceTree = "<group>";
+		};
+		47BBB10E280034A000AD50E6 /* RecipeWorker */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB10F280034A000AD50E6 /* GTWorker.swift */,
+			);
+			path = RecipeWorker;
+			sourceTree = "<group>";
+		};
+		47BBB110280034A000AD50E6 /* ListEntity */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB111280034A000AD50E6 /* GTDataModel.swift */,
+			);
+			path = ListEntity;
+			sourceTree = "<group>";
+		};
+		47BBB112280034A000AD50E6 /* ListPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB113280034A000AD50E6 /* GTPresenter.swift */,
+			);
+			path = ListPresenter;
+			sourceTree = "<group>";
+		};
+		47BBB114280034A000AD50E6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				47BBB115280034A000AD50E6 /* GTAlertControllerWithTextField.swift */,
+				47BBB116280034A000AD50E6 /* GTCommonExtensions.swift */,
+				47BBB117280034A000AD50E6 /* GTUtilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47BBB0BA280033DB00AD50E6 /* SimpleTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47BBB0E5280033E000AD50E6 /* Build configuration list for PBXNativeTarget "SimpleTodo" */;
+			buildPhases = (
+				47BBB0B7280033DB00AD50E6 /* Sources */,
+				47BBB0B8280033DB00AD50E6 /* Frameworks */,
+				47BBB0B9280033DB00AD50E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTodo;
+			productName = SimpleTodo;
+			productReference = 47BBB0BB280033DB00AD50E6 /* SimpleTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47BBB0D0280033E000AD50E6 /* SimpleTodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47BBB0E8280033E000AD50E6 /* Build configuration list for PBXNativeTarget "SimpleTodoTests" */;
+			buildPhases = (
+				47BBB0CD280033E000AD50E6 /* Sources */,
+				47BBB0CE280033E000AD50E6 /* Frameworks */,
+				47BBB0CF280033E000AD50E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47BBB0D3280033E000AD50E6 /* PBXTargetDependency */,
+			);
+			name = SimpleTodoTests;
+			productName = SimpleTodoTests;
+			productReference = 47BBB0D1280033E000AD50E6 /* SimpleTodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47BBB0DA280033E000AD50E6 /* SimpleTodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47BBB0EB280033E000AD50E6 /* Build configuration list for PBXNativeTarget "SimpleTodoUITests" */;
+			buildPhases = (
+				47BBB0D7280033E000AD50E6 /* Sources */,
+				47BBB0D8280033E000AD50E6 /* Frameworks */,
+				47BBB0D9280033E000AD50E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47BBB0DD280033E000AD50E6 /* PBXTargetDependency */,
+			);
+			name = SimpleTodoUITests;
+			productName = SimpleTodoUITests;
+			productReference = 47BBB0DB280033E000AD50E6 /* SimpleTodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47BBB0B3280033DB00AD50E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					47BBB0BA280033DB00AD50E6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					47BBB0D0280033E000AD50E6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 47BBB0BA280033DB00AD50E6;
+					};
+					47BBB0DA280033E000AD50E6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 47BBB0BA280033DB00AD50E6;
+					};
+				};
+			};
+			buildConfigurationList = 47BBB0B6280033DB00AD50E6 /* Build configuration list for PBXProject "SimpleTodo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47BBB0B2280033DB00AD50E6;
+			productRefGroup = 47BBB0BC280033DB00AD50E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47BBB0BA280033DB00AD50E6 /* SimpleTodo */,
+				47BBB0D0280033E000AD50E6 /* SimpleTodoTests */,
+				47BBB0DA280033E000AD50E6 /* SimpleTodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47BBB0B9280033DB00AD50E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BBB0CB280033DF00AD50E6 /* LaunchScreen.storyboard in Resources */,
+				47BBB0C8280033DF00AD50E6 /* Assets.xcassets in Resources */,
+				47BBB0C6280033DB00AD50E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BBB0CF280033E000AD50E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BBB0D9280033E000AD50E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47BBB0B7280033DB00AD50E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BBB11B280034A000AD50E6 /* DIContainer.swift in Sources */,
+				47BBB11D280034A000AD50E6 /* GTListRouter.swift in Sources */,
+				47BBB119280034A000AD50E6 /* CoreDataHelper.swift in Sources */,
+				47BBB121280034A000AD50E6 /* GTWorker.swift in Sources */,
+				47BBB120280034A000AD50E6 /* GTInteractor.swift in Sources */,
+				47BBB11F280034A000AD50E6 /* GTListCell.swift in Sources */,
+				47BBB11E280034A000AD50E6 /* GTListView.swift in Sources */,
+				47BBB126280034A000AD50E6 /* GTUtilities.swift in Sources */,
+				47BBB11A280034A000AD50E6 /* DBHelper.swift in Sources */,
+				47BBB0C3280033DB00AD50E6 /* ViewController.swift in Sources */,
+				47BBB11C280034A000AD50E6 /* GTConstants.swift in Sources */,
+				47BBB122280034A000AD50E6 /* GTDataModel.swift in Sources */,
+				47BBB1292800354600AD50E6 /* ToDoDB.xcdatamodeld in Sources */,
+				47BBB124280034A000AD50E6 /* GTAlertControllerWithTextField.swift in Sources */,
+				47BBB118280034A000AD50E6 /* GTError.swift in Sources */,
+				47BBB0BF280033DB00AD50E6 /* AppDelegate.swift in Sources */,
+				47BBB123280034A000AD50E6 /* GTPresenter.swift in Sources */,
+				47BBB125280034A000AD50E6 /* GTCommonExtensions.swift in Sources */,
+				47BBB0C1280033DB00AD50E6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BBB0CD280033E000AD50E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BBB0F72800348A00AD50E6 /* GTListWorkerMock.swift in Sources */,
+				47BBB0D6280033E000AD50E6 /* SimpleTodoTests.swift in Sources */,
+				47BBB0F82800348A00AD50E6 /* GTListSceneTest.swift in Sources */,
+				47BBB0FA2800348A00AD50E6 /* GTListInteractorMock.swift in Sources */,
+				47BBB0F92800348A00AD50E6 /* GTListViewMock.swift in Sources */,
+				47BBB0F52800348A00AD50E6 /* GTListRouterMock.swift in Sources */,
+				47BBB0F62800348A00AD50E6 /* GTListPresenterMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BBB0D7280033E000AD50E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BBB0E2280033E000AD50E6 /* SimpleTodoUITestsLaunchTests.swift in Sources */,
+				47BBB0E0280033E000AD50E6 /* SimpleTodoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47BBB0D3280033E000AD50E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47BBB0BA280033DB00AD50E6 /* SimpleTodo */;
+			targetProxy = 47BBB0D2280033E000AD50E6 /* PBXContainerItemProxy */;
+		};
+		47BBB0DD280033E000AD50E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47BBB0BA280033DB00AD50E6 /* SimpleTodo */;
+			targetProxy = 47BBB0DC280033E000AD50E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47BBB0C4280033DB00AD50E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47BBB0C5280033DB00AD50E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47BBB0C9280033DF00AD50E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47BBB0CA280033DF00AD50E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47BBB0E3280033E000AD50E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47BBB0E4280033E000AD50E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47BBB0E6280033E000AD50E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YTAW46B5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleTodo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47BBB0E7280033E000AD50E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YTAW46B5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleTodo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47BBB0E9280033E000AD50E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YTAW46B5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleTodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleTodo.app/SimpleTodo";
+			};
+			name = Debug;
+		};
+		47BBB0EA280033E000AD50E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YTAW46B5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleTodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleTodo.app/SimpleTodo";
+			};
+			name = Release;
+		};
+		47BBB0EC280033E000AD50E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YTAW46B5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleTodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleTodo;
+			};
+			name = Debug;
+		};
+		47BBB0ED280033E000AD50E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YTAW46B5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleTodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleTodo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47BBB0B6280033DB00AD50E6 /* Build configuration list for PBXProject "SimpleTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BBB0E3280033E000AD50E6 /* Debug */,
+				47BBB0E4280033E000AD50E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47BBB0E5280033E000AD50E6 /* Build configuration list for PBXNativeTarget "SimpleTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BBB0E6280033E000AD50E6 /* Debug */,
+				47BBB0E7280033E000AD50E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47BBB0E8280033E000AD50E6 /* Build configuration list for PBXNativeTarget "SimpleTodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BBB0E9280033E000AD50E6 /* Debug */,
+				47BBB0EA280033E000AD50E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47BBB0EB280033E000AD50E6 /* Build configuration list for PBXNativeTarget "SimpleTodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BBB0EC280033E000AD50E6 /* Debug */,
+				47BBB0ED280033E000AD50E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47BBB1272800354600AD50E6 /* ToDoDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47BBB1282800354600AD50E6 /* ToDoDB.xcdatamodel */,
+			);
+			currentVersion = 47BBB1282800354600AD50E6 /* ToDoDB.xcdatamodel */;
+			path = ToDoDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47BBB0B3280033DB00AD50E6 /* Project object */;
+}
